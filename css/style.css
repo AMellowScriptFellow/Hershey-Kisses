@@ -1,0 +1,114 @@
+body {
+    font-family: bradley hand, cursive;
+    background-color: #f7f0d2;
+    margin: 0;
+    padding: 0;
+    color: rgba(20, 17, 17, 1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;   
+}
+
+.title {
+    font-size: 65px;
+    color: #4a3c31;
+    font-family: 'Brush Script MT', cursive;
+    font-weight: bold;
+
+}
+
+.robinandhershey {
+        font-size: 50px;
+        color: #000000;
+        font-family: 'Brush Script MT', cursive;
+    }
+
+ .life-of-hershey   {
+        font-size: 50px;
+        color: #000000;
+        font-family: 'Brush Script MT', cursive;
+
+    }
+
+.hershey-legacy {
+        font-size: 50px;
+        color: #000000;
+        font-family: 'Brush Script MT', cursive;
+    }
+
+    .hershey-kisses-ending {
+        font-size: 75px;
+        color: #000000;
+        font-family: 'Brush Script MT', cursive;
+        text-align: center;
+    }
+
+  .sleepy-hershey {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .hershey-and-robin {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    /* friends row: center two friend images side-by-side with a small gap */
+    .friends-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px; /* small gap between images */
+        margin: 0 auto 20px auto;
+    }
+
+    .hershey-friend1,
+    .hershey-friend2 {
+        display: inline-block;
+        margin: 0;
+        height: 360px; /* unified height for consistent appearance; width auto to preserve aspect ratio */
+        object-fit: cover;
+    }
+
+ 
+    
+    .baby-hershey {
+        display: inline-block;
+        margin-left: 350px;
+        margin-right: auto;
+        height: 556px;
+    }
+    .young-hershey {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .love-you {
+        text-align: center;
+        font-size: 58px;
+        margin-top: 30px;
+        font-family: 'Brush Script MT', cursive;
+    }
+    .forever-yours {
+        text-align: center;
+        font-size: 55px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Brush Script MT', cursive;
+    }
